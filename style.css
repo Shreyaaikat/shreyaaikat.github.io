@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,500;0,700;1,200&display=swap');
+
+.maincolumn{
+height: 100vh;
+width: 100%;
+color: white;
+}
+
+.navigation{
+    height: 15ch;
+}
+
+.logo{
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration:none;
+    color: black;
+    text-align: left;
+}
+
+.links{
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration:none;
+    color: black;
+    text-align: center; 
+    margin: 10%;  
+}
+
+.links:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(173, 225, 73);
+    text-decoration-thickness: 2.5px;
+}
+
+.contact{
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration:none;
+    color: yellowgreen;
+    text-align: right;
+}
+
+.row1{
+    height: 42vh;
+    width: 100%;
+}
+
+.col1{
+    height: 42vh;
+    width: 50vw;
+}
+
+.tagline{
+    font-family: cormorant, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.img{
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.products{
+font-family: Montserrat, sans-serif;
+font-size: 35px;
+font-weight: 600;
+color: greenyellow;
+}
+
+@keyframes slider {
+from {
+    transform: translateX(0);
+}
+to {
+    transform: translateX(-100%);
+}
+}
+
+.services{
+    overflow: hidden;
+    padding: 25px 0;
+    background: black;
+    white-space: nowrap; 
+}
+
+.services:hover .services-slider{
+animation-play-state: paused;
+}
+
+.services-slider{
+    display: inline-block;
+   animation: 8s slider infinite linear;
+}
+
+.services-slider b {
+    height: 50px;
+    margin: 0 40px;
+}
+
+.outro{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.skillcol{
+    height: 90vh;
+    width: 100vw;
+}
+
+.headers{
+    font-family: montserrat, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: yellowgreen;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subheadings{
+    font-family: montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.skillbox{
+    height: 15vh;
+    width: 40vw;
+}
+.skillbox2{
+    height: 10vh;
+    width: 30vw;
+}
+
+.portfolio{
+    height: 130vh;
+    width: 100vw;
+}
+
+.titles{
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: yellowgreen;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.photoframes{
+    height: 50vh;
+    width: 30%;
+}
+
+.photos{
+    height: 50vh;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.outro{
+    height: 10vh;
+    width: 100%;
+}
+
+.headings-about{
+    color: yellowgreen; 
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+}
+
+.introduction{
+    height: 30vh;
+    width: 100%;
+}
+
+.experience{
+    height: 25vh;
+    width: 100%;
+}
+
+.explist{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.interests{
+    height: 28vh;
+    width: 100%;
+}
+
+.content{
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imgsize{
+    height: 300px;
+    width: 500px;
+}
+
+.colsize{
+    height: 50vh;
+    width: 50%;
+}
+
+.write-up{
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imgss{
+    height: 230px;
+    width: 300px;
+}
